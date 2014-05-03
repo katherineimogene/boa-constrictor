@@ -2,5 +2,7 @@
 Boa = {}
 
 $(function() {
-  alert("BOA CONSTRICTOR!!")
+  var canvas
+  canvas = new Boa.GameCanvas().draw()
+
 })
